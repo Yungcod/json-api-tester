@@ -135,14 +135,14 @@ def main():
             clear_button = st.button("Clear", key="clear_button", use_container_width=True)
             if clear_button:
                 st.session_state["json_input"] = ""
-                st.experimental_rerun()
+                st.rerun()
                 
         with col3:
             load_example = st.button("Load Example", key="load_example", use_container_width=True)
             if load_example:
                 # Store the example in session state so it persists
                 st.session_state["json_input"] = example_json
-                st.experimental_rerun()
+                st.rerun()
         
         if validate_button:
             if not json_input:
