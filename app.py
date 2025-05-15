@@ -18,7 +18,7 @@ def get_download_link(json_data):
 def main():
     st.set_page_config(
         page_title="JSON API Tester", 
-        page_icon="🧪",
+        page_icon=None,
         layout="wide"
     )
     
@@ -60,11 +60,11 @@ def main():
         </style>
     """, unsafe_allow_html=True)
     
-    st.markdown('<div class="main-header"><h1>🧪 JSON API Tester</h1></div>', unsafe_allow_html=True)
+    st.markdown('<div class="main-header"><h1>JSON API Tester</h1></div>', unsafe_allow_html=True)
     st.markdown('<div class="subheader">Validate and analyze JSON data from API endpoints or pasted content.</div>', unsafe_allow_html=True)
     
     # Create tabs for the two input methods
-    tab1, tab2 = st.tabs(["📡 API URL", "📝 Manual JSON"])
+    tab1, tab2 = st.tabs(["API URL", "Manual JSON"])
     
     with tab1:
         col1, col2 = st.columns([3, 1])
