@@ -21,6 +21,10 @@ A simple Streamlit application that helps developers test HTTP endpoints returni
 - **Example APIs** to test with
 - **Sample JSON** data to explore
 
+## Screenshot
+![image](https://github.com/user-attachments/assets/4144e919-c7f6-4936-a71c-9568208eed46)
+
+
 ## Installation
 
 1. Clone this repository:
